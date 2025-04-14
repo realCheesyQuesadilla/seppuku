@@ -1,4 +1,4 @@
-![Logo](https://github.com/realCheesyQuesadilla/seppuku/raw/main/samurai.png)
+![Logo](https://github.com/realCheesyQuesadilla/seppuku/raw/main/images/samurai.png)
 
 # seppuku - Process Kill Library
 
