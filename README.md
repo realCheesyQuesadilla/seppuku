@@ -62,7 +62,7 @@ You can easily integrate the timeout library into shell scripts:
 ```bash
 #!/bin/bash
 
-# Set the path to seppuku.sorealCheesyQuesadilla/Hack-Week-Project
+# Set the path to seppuku.so
 TIMEOUT_LIB="/path/to/seppuku.so"
 
 # Function to run a command with seppuku
