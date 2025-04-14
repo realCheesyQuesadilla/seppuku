@@ -25,7 +25,7 @@ Clone the repository and build the library:
 
 ```bash
 git clone https://github.com/realCheesyQuesadilla/seppuku.git
-cd timeout
+cd seppuku
 make
 ```
 
