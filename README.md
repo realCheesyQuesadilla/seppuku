@@ -2,7 +2,8 @@
 
 # seppuku - Process Kill Library
 
-A lightweight, flexible library for adding timeout capabilities to any Linux process using LD_PRELOAD.
+A lightweight, flexible library for adding timeout capabilities to any Linux process using LD_PRELOAD. Allows the process to die with honor through SIGTERM.  
+
 ![ActionGif](https://github.com/realCheesyQuesadilla/seppuku/raw/main/images/seppuku_netcat.gif)
 
 ## Overview
