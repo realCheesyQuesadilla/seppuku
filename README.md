@@ -61,7 +61,7 @@ You can easily integrate the timeout library into shell scripts:
 ```bash
 #!/bin/bash
 
-# Set the path to seppuku.so
+# Set the path to seppuku.sorealCheesyQuesadilla/Hack-Week-Project
 TIMEOUT_LIB="/path/to/seppuku.so"
 
 # Function to run a command with seppuku
@@ -79,8 +79,7 @@ run_with_timeout 5 ./long_running_task
 
 The library uses the LD_PRELOAD mechanism to inject itself into the target process. When loaded, it:
 
-1. Reads the `TIME` environment variable
-     NOTE: If no `TIME` variable exists, it will default to time specified in code.
+1. Reads the `TIME` environment variable or defaults to time set during compilation.  
 3. Creates a background timer thread
 4. After the specified timeout, sends SIGTERM to terminate the process
 
