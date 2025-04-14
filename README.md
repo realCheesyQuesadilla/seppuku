@@ -95,7 +95,7 @@ This approach ensures that the timeout works regardless of what the target proce
 
 ## Future Goals  
 
-I plan to attend functionality to delete binary passed.
+Add functionality to also delete binary.
 
 ## Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
