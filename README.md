@@ -80,9 +80,9 @@ run_with_timeout 5 ./long_running_task
 The library uses the LD_PRELOAD mechanism to inject itself into the target process. When loaded, it:
 
 1. Reads the `TIME` environment variable
-   NOTE: If no `TIME` variable exists, it will default to time specified in code.
-2. Creates a background timer thread
-3. After the specified timeout, sends SIGTERM to terminate the process
+     NOTE: If no `TIME` variable exists, it will default to time specified in code.
+3. Creates a background timer thread
+4. After the specified timeout, sends SIGTERM to terminate the process
 
 
 This approach ensures that the timeout works regardless of what the target process is doing, even if it's stuck in an infinite loop or blocked I/O operation.
